@@ -1,0 +1,29 @@
+sudo xboxdrv --detach-kernel-driver
+//Aparte en otra terminal
+ qjoypad --update
+ qjoypad --notray
+
+select			button_01 	a
+button_L3		button_02 	w
+button_R3		button_03 	s
+start			button_04 	d
+
+up_arrow		button_05 	j
+right_arrow		button_06 	h
+down_arrow		button_07 	b
+left_arrow		button_08 	v
+
+button_L2		button_09 	u
+button_R2		button_01 	t
+button_L1		button_11 	y
+button_R1		button_12 	p
+
+button_tri		button_13 	l
+button_o		button_14 	m
+button_x		button_15 	n
+button_sq		button_16 	z
+
+button_PS		button_17 	x
+				button_18 	c
+				button_19 	q
+
